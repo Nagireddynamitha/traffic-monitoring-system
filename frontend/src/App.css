@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1220;
+  color: white;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #020617;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.alerts {
+  margin-bottom: 20px;
+}
+
+.high {
+  background: red;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.moderate {
+  background: orange;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.map-box {
+  height: 500px;
+}
